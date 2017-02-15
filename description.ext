@@ -1,0 +1,26 @@
+DisabledAI = 1;
+
+class Params {
+	class AFAR {
+	//paramsArray[0]	(Enable/Disable Scripted Radio)
+		title="Addon-Free ArmA Radio (On/Off)";
+		values[]={1,0};
+		texts[]={"On (Default)","Off"};
+		default=1;
+	};
+};
+
+class CfgSounds {
+	sounds[]={on1,out1,fuz1,fuz2,fuz3,fuz4,fuz5,fuz6,fuz7,fuz8};
+		class in1 {name="in1";sound[]={"@A3\Dubbing_Radio_F\sfx\in2a.ogg",db+1,1};titles[]={};};
+		class in2 {name="in2";sound[]={"@A3\Dubbing_Radio_F\sfx\in2a.ogg",db+5,0.7};titles[]={};};
+		class out1 {name="out1";sound[]={"@A3\Dubbing_Radio_F\sfx\out2a.ogg",db+1,1};titles[]={};};
+		class fuz1 {name="fuz1";sound[]={"@A3\Dubbing_Radio_F\sfx\radionoise1.ogg",db+3,1};titles[]={};};
+		class fuz2 {name="fuz2";sound[]={"@A3\Dubbing_Radio_F\sfx\radionoise1.ogg",db+6,1};titles[]={};};
+		class fuz3 {name="fuz3";sound[]={"@A3\Dubbing_Radio_F\sfx\radionoise1.ogg",db+9,1};titles[]={};};
+		class fuz4 {name="fuz4";sound[]={"@A3\Dubbing_Radio_F\sfx\radionoise1.ogg",db+12,1};titles[]={};};
+		class fuz5 {name="fuz5";sound[]={"@A3\Dubbing_Radio_F\sfx\radionoise1.ogg",db+15,1};titles[]={};};
+		class fuz6 {name="fuz6";sound[]={"@A3\Dubbing_Radio_F\sfx\radionoise1.ogg",db+18,1};titles[]={};};
+		class fuz7 {name="fuz7";sound[]={"@A3\Dubbing_Radio_F\sfx\radionoise1.ogg",db+21,1};titles[]={};};
+		class fuz8 {name="fuz8";sound[]={"@A3\Dubbing_Radio_F\sfx\radionoise1.ogg",db+24,1};titles[]={};};
+};

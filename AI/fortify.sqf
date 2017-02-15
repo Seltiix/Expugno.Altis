@@ -1,0 +1,1 @@
+["OrinoArea", 1000] execVM "AI\populateAI.sqf";

@@ -1,0 +1,1 @@
+[] execVM "AI\fortify.sqf";
