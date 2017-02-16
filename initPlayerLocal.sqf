@@ -2,7 +2,7 @@ waitUntil {!isNull player};
 waitUntil {player == player};
 
 diag_log "Starting INIT";
-call compile preprocessFileLineNumbers "initVar.sqf";//this is the file where you can modify a few things.
+call compile preprocessFileLineNumbers "initVar.sqf";
 diag_log "Initvar done.";
 call compile preprocessFileLineNumbers "initFunctions.sqf";
 diag_log "Functions done.";
